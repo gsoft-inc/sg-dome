@@ -2,7 +2,7 @@ import { Button, Field, Label, PasswordInput, Checkbox, TextInput, HelpMessage, 
   
 export function Settings() {
     return (
-        <div className="mw-xs m-auto mt10">
+        <div className="max-w-md m-auto mt10">
           <Heading>Settings</Heading>
           <Paragraph>Within this section, you can manage ShareGate Apricot's settings, such as storage and communication options.</Paragraph>
           <Form className="mt8" fluid>
