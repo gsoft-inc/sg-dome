@@ -1,0 +1,1 @@
+module.exports = require("./node-modules/babel-preset-react-app/index.js");

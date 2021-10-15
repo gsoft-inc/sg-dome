@@ -1,7 +1,7 @@
 import { Button, ButtonGroup, Card, Content, Heading, Paragraph, Illustration, Image } from "@orbit-ui/react-components";
-import {Sidebar} from "../Components";
-  
-export function Main() {
+import { Sidebar } from "../components";
+
+export function Home() {
     return (
         <div className="flex" style={{ minHeight: "1168px" }}>
             <Sidebar />
@@ -15,7 +15,7 @@ export function Main() {
                         </Content>
                         <ButtonGroup>
                             <Button>Discover Teams Management</Button>
-                            <Button variant="outline">Open migration tool</Button>
+                            <Button variant="secondary">Open migration tool</Button>
                         </ButtonGroup>
                     </Card>
                     <Card fluid orientation="horizontal" className="mt5">
@@ -29,19 +29,19 @@ export function Main() {
                         </Content>
                         <ButtonGroup>
                             <Button>Watch</Button>
-                            <Button variant="outline">No thanks</Button>
+                            <Button variant="secondary">No thanks</Button>
                         </ButtonGroup>
                     </Card>
                 </div>
                 <div className="w96 pt7 ph8 bl b--cloud-100 flex items-center flex-column">
                     <div className="mt-auto  mb-auto">
-                        <img src="https://doodleipsum.com/700/flat?i=1dc6272ead803ea1f5efff066ff849eb" alt="doodle" className="mb10"/>
+                        <img src="https://doodleipsum.com/700/flat?i=1dc6272ead803ea1f5efff066ff849eb" alt="doodle" className="mb10" />
                         <Heading size="2xs">We know that within most tenants, 17% of teams are inactive.</Heading>
                         <Paragraph className="mt4 mb6">Clean them now and start fresh!</Paragraph>
                         <Button>Discover Teams Management</Button>
                     </div>
                 </div>
             </div>
-      </div>
+        </div>
     );
 }
