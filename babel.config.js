@@ -1,1 +1,3 @@
-module.exports = require("./node-modules/babel-preset-react-app/index.js");
+// module.exports = require("node-modules/babel-preset-react-app/dev.js");
+
+module.exports = {};

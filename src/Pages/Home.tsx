@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Card, Content, Heading, Paragraph, Illustration, Image } from "@orbit-ui/react-components";
+import { Button, ButtonGroup, Card, Content, Heading, Illustration, Image, Paragraph, Span } from "@orbit-ui/react-components";
 import { Sidebar } from "../components";
 
 export function Home() {
@@ -18,13 +18,13 @@ export function Home() {
                             <Button variant="secondary">Open migration tool</Button>
                         </ButtonGroup>
                     </Card>
-                    <Card fluid orientation="horizontal" className="mt5">
+                    <Card className="mt5" fluid orientation="horizontal">
                         <Illustration>
-                            <Image src="https://doodleipsum.com/80x80/flat?i=73074137779d4cb734489ba8aa791468" alt="Planet over another one" />
+                            <Image alt="Planet over another one" src="https://doodleipsum.com/80x80/flat?i=73074137779d4cb734489ba8aa791468" />
                         </Illustration>
                         <Heading>Why Sharegate is a migration game changer</Heading>
                         <Content>
-                            <Paragraph>Hi, I’m Benjamin 👋 </Paragraph>
+                            <Paragraph>Hi, I’m Benjamin <span aria-label="wave" role="img">👋</span></Paragraph>
                             <Paragraph>I’m Sharegate's product director, it’s nice to have you! Allow me to take you on a quick product tour and show you why ShareGate is your best ally.</Paragraph>
                         </Content>
                         <ButtonGroup>
@@ -35,7 +35,7 @@ export function Home() {
                 </div>
                 <div className="w96 pt7 ph8 bl b--cloud-100 flex items-center flex-column">
                     <div className="mt-auto  mb-auto">
-                        <img src="https://doodleipsum.com/700/flat?i=1dc6272ead803ea1f5efff066ff849eb" alt="doodle" className="mb10" />
+                        <img alt="doodle" className="mb10" src="https://doodleipsum.com/700/flat?i=1dc6272ead803ea1f5efff066ff849eb" />
                         <Heading size="2xs">We know that within most tenants, 17% of teams are inactive.</Heading>
                         <Paragraph className="mt4 mb6">Clean them now and start fresh!</Paragraph>
                         <Button>Discover Teams Management</Button>

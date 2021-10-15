@@ -1,4 +1,4 @@
-import { Button, Field, Label, PasswordInput, Checkbox, TextInput, HelpMessage, Form, Heading, Paragraph } from "@orbit-ui/react-components";
+import { Button, Checkbox, Field, Form, Heading, HelpMessage, Label, Paragraph, PasswordInput, TextInput } from "@orbit-ui/react-components";
 
 export function Settings() {
     return (
