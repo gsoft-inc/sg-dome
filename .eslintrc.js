@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         commonjs: true,
+        es5: true,
         es6: true,
         node: true
     },
