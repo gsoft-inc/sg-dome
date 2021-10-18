@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/eslint-parser": "7.15.8",
     "@craco/craco": "6.3.0",
-    "@orbit-ui/react-components": "19.0.1-alpha.2",
+    "@orbit-ui/react-components": "19.0.1-alpha.3",
     "@sharegate/eslint-config-react": "2.1.0",
     "@sharegate/eslint-config-recommended": "1.1.1",
     "@sharegate/eslint-config-sort-imports": "1.0.3",
