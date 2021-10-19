@@ -1,11 +1,11 @@
-import { Button, Checkbox, Field, Form, Heading, HelpMessage, Label, Paragraph, PasswordInput, TextInput } from "@orbit-ui/react-components";
+import { Button, Checkbox, Div, Field, Form, Heading, HelpMessage, Label, Paragraph, PasswordInput, TextInput } from "@orbit-ui/react-components";
 
 export function Settings() {
     return (
-        <div className="max-w-md m-auto mt10">
+        <Div maxWidth="28rem" margin="auto" marginTop={10}>
             <Heading>Settings</Heading>
             <Paragraph>Within this section, you can manage ShareGate Apricot's settings, such as storage and communication options.</Paragraph>
-            <Form className="mt8" fluid>
+            <Form marginTop={8} fluid>
                 <Field required>
                     <Label>Username</Label>
                     <TextInput placeholder="john@spacex.com" />
@@ -20,6 +20,6 @@ export function Settings() {
                 </Field>
                 <Button type="submit">Login</Button>
             </Form>
-        </div>
+        </Div>
     );
 }
