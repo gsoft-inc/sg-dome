@@ -1,5 +1,5 @@
 import { Div, Flex, H1 } from "@orbit-ui/react-components";
-import { Sidebar } from "../../components";
+import { Sidebar } from "../../Components";
 
 export function Third() {
     return (

@@ -1,5 +1,5 @@
-import { Home, Settings, Third } from "./pages";
-import { Menu } from "./components";
+import { Home, Settings, Third } from "./Pages";
+import { Menu } from "./Components";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {

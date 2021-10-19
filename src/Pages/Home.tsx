@@ -1,5 +1,5 @@
 import { Button, ButtonGroup, Card, Content, Heading, Illustration, Image, Paragraph } from "@orbit-ui/react-components";
-import { Sidebar } from "../components";
+import { Sidebar } from "../Components";
 
 export function Home() {
     return (
