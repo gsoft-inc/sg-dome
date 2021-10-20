@@ -1,25 +1,25 @@
-import { Avatar, Button, Text } from "@orbit-ui/react-components";
+import { Avatar, Button, Div, Flex, Icon, Text } from "@orbit-ui/react-components";
 import { Hamburger, Help, Logo, Notification, Settings } from "./assets";
 import { Link } from "react-router-dom";
 
 export function Menu() {
     return (
-        <nav className="menu bb b--cloud-100 pr8 pl8 pb5 pt5 flex items-center justify-between">
+        <Flex alignItems="center" justifyContent="space-between" as="nav" borderBottom="cloud-2" paddingX={8} paddingY={5}>
             <Link to="/">
-                <div className="flex items-center">
-                    <Logo className="w8 h8 mr7" />
-                </div>
+                <Flex alignItems="center" marginRight={7}>
+                    <Icon src={Logo} width={5} height={5} />
+                </Flex>
             </Link>
-            <div className="items-center hidden lg:flex">
+            <Div display={{ base: "none", md: "flex", lg: "flex", xl: "flex" }} alignItems="center">
                 <Text>30 days left in trial</Text>
-                <Button className="mh5" shape="rounded" variant="secondary">Book a demo</Button>
-                <Button className="mr7" shape="rounded">Ready to buy</Button>
-                <Notification className="mr3" />
-                <Link to="/settings"><Settings className="mr3" /></Link>
-                <Help className="mr3" />
+                <Button marginX={5} shape="rounded" variant="secondary">Book a demo</Button>
+                <Button marginRight={7} shape="rounded">Ready to buy</Button>
+                <Div marginRight={3}><Icon src={Notification} size="xl" /></Div>
+                <Div marginRight={3} ><Link to="/settings"><Icon src={Settings} size="xl"/></Link></Div>
+                <Div marginRight={3}><Icon src={Help} size="xl" /></Div>
                 <Avatar name="Mars Volta" />
-            </div>
-            <Hamburger className="w6 h6 lg:hidden" />
-        </nav>
+            </Div>
+            <Div display={{ base: "block", md: "none", lg: "none", xl: "none" }}><Icon src={Hamburger} width={4} height={4} /></Div>
+        </Flex>
     );
 }

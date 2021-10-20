@@ -1,14 +1,14 @@
-import { Div, Flex, H1 } from "@orbit-ui/react-components";
-import { Sidebar } from "../../components";
+import { Flex, Grid, H1 } from "@orbit-ui/react-components";
+import { Sidebar } from "../../Components";
 
 export function Third() {
     return (
         <>
             <Sidebar />
-            <Flex className="mw-m" marginTop={10} style={{ gap: "2rem", minHeight: "768px" }}>
-                <Div className="grid grid-rows-auto gap-6 grid-cols-1 lg:grid-cols-2">
+            <Flex minHeight="768px" gap="2rem" marginTop={10}>
+                <Grid gap="6" gridColumnSpan={{ base: 1, lg: 2 }}>
                     <H1>test</H1>
-                </Div>
+                </Grid>
                 <Sidebar />
             </Flex>
         </>
