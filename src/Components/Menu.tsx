@@ -14,9 +14,9 @@ export function Menu() {
                 <Text>30 days left in trial</Text>
                 <Button marginX={5} shape="rounded" variant="secondary">Book a demo</Button>
                 <Button marginRight={7} shape="rounded">Ready to buy</Button>
-                <Div marginRight={3}><Icon src={Notification} /></Div>
-                <Div marginRight={3} ><Link to="/settings"><Icon src={Settings} /></Link></Div>
-                <Div marginRight={3}><Icon src={Help} /></Div>
+                <Div marginRight={3}><Icon src={Notification} size="xl" /></Div>
+                <Div marginRight={3} ><Link to="/settings"><Icon src={Settings} size="xl"/></Link></Div>
+                <Div marginRight={3}><Icon src={Help} size="xl" /></Div>
                 <Avatar name="Mars Volta" />
             </Div>
             <Div display={{ base: "block", md: "none", lg: "none", xl: "none" }}><Icon src={Hamburger} width={4} height={4} /></Div>
