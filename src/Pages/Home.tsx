@@ -7,7 +7,7 @@ export function Home() {
             <Sidebar />
             <Div flex="1 1 0%">
                 <Flex height="100%">
-                    <Div marginTop={7} paddingX={4} flex="1 1 0%" backgroundColor="neutral-1">
+                    <Flex direction="column" marginTop={7} paddingX={4} flexGrow={1} basis="0%" backgroundColor="neutral-1">
                         <Heading>Welcome to ShareGate Alex!</Heading>
                         <Card fluid>
                             <Heading>Try your first migration</Heading>
@@ -33,8 +33,8 @@ export function Home() {
                                 <Button variant="secondary">No thanks</Button>
                             </ButtonGroup>
                         </Card>
-                    </Div>
-                    <Flex alignItems="center" direction="column" width="24rem" paddingTop={7} paddingX={8} borderLeft="1px var(--o-ui-cloud-2) solid">
+                    </Flex>
+                    <Flex alignItems="center" direction="column" width={17} paddingTop={7} paddingX={8} borderLeft="cloud-2">
                         <Div marginY="auto">
                             <Image alt="doodle" marginBottom={10} src="https://doodleipsum.com/700/flat?i=1dc6272ead803ea1f5efff066ff849eb" />
                             <Heading size="2xs">We know that within most tenants, 17% of teams are inactive.</Heading>

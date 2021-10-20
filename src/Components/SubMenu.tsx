@@ -1,9 +1,11 @@
-import { Div, Flex } from "@orbit-ui/react-components";
+import { Div, Flex, as } from "@orbit-ui/react-components";
 import { Link } from "react-router-dom";
 
 export function SubMenu() {
+    const Nav = as(Flex, "nav");
+
     return (
-        <Flex as="nav" borderBottom="1px (--o-ui-cloud-3) solid" paddingX={8} paddingY={5}>
+        <Nav borderBottom="cloud-3" paddingX={8} paddingY={5}>
             <Div marginRight={7}>
                 <Link to="/">&lt; Back</Link>
             </Div>
@@ -13,6 +15,6 @@ export function SubMenu() {
             <Div>
                 <Link to="/settings">Inactivity</Link>
             </Div>
-        </Flex>
+        </Nav>
     );
 }

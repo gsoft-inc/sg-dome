@@ -6,7 +6,7 @@ export function Third() {
         <>
             <Sidebar />
             <Flex minHeight="768px" gap="2rem" marginTop={10}>
-                <Grid gridRow="auto" gap="6" gridColumnSpan={{ base: 1, lg: 2 }}>
+                <Grid gap="6" gridColumnSpan={{ base: 1, lg: 2 }}>
                     <H1>test</H1>
                 </Grid>
                 <Sidebar />
