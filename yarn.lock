@@ -1468,18 +1468,18 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@orbit-ui/icons@10.0.1-alpha.3":
-  version "10.0.1-alpha.3"
-  resolved "https://registry.yarnpkg.com/@orbit-ui/icons/-/icons-10.0.1-alpha.3.tgz#58cb1df4ce827855bfec64685dc11e3ef24f96fc"
-  integrity sha512-7OUtX27IDZQt/ooPozV30TtyzWoBWeyuoOj96ZSN/vSXYDAutCealrq8iPjr5PZRVNrumEtg1zhFqTE6f8DZxg==
+"@orbit-ui/icons@10.0.1-alpha.4":
+  version "10.0.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@orbit-ui/icons/-/icons-10.0.1-alpha.4.tgz#dd4dcbb8f5aef75a4bbf16b81c674135cec24ca0"
+  integrity sha512-BlUkEYbnoRGiXXVsRbvrUBNAycIT9BMat+FDyMmet+WvfGSZnju/tWQ3jFdPKnv7XAJYgYKA7DPxiLnGze27aw==
 
-"@orbit-ui/react-components@19.0.1-alpha.3":
-  version "19.0.1-alpha.3"
-  resolved "https://registry.yarnpkg.com/@orbit-ui/react-components/-/react-components-19.0.1-alpha.3.tgz#aa8213ce2cd388f598fa7e59aa839eeec026b1f8"
-  integrity sha512-JWLMZtxhixVRyH9s/EDLdDP7T14xus80VT0pT2HoXGcM14FYRd4dht+jXSbOPjuNNq5PpPPbq+uF+kTssDETsg==
+"@orbit-ui/react-components@19.0.1-alpha.4":
+  version "19.0.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@orbit-ui/react-components/-/react-components-19.0.1-alpha.4.tgz#2a3b88c5ac7d01f5178171f24a9c11ee1f1357c8"
+  integrity sha512-gDB9cBwVBCGcw7suIPlvIzdJG8U8mxRnyQPpWMC1nDGB9CkSLrqiZxXrhNALqUyR42SnseUzjpJoVfG/L9T/IQ==
   dependencies:
     "@babel/runtime-corejs3" "*"
-    "@orbit-ui/icons" "10.0.1-alpha.3"
+    "@orbit-ui/icons" "10.0.1-alpha.4"
     "@popperjs/core" "2.10.2"
     "@reach/auto-id" "0.16.0"
     react-is "17.0.2"
