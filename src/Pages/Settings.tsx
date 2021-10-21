@@ -18,7 +18,7 @@ export function Settings() {
                 <Field>
                     <Checkbox>Remember me</Checkbox>
                 </Field>
-                <Button type="submit">Login</Button>
+                <Button variant="primary" type="submit">Login</Button>
             </Form>
         </Div>
     );
