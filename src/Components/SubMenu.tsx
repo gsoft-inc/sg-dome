@@ -1,9 +1,9 @@
-import { Div } from "@sharegate/orbit-ui";
+import { Div, Nav } from "@sharegate/orbit-ui";
 import { Link } from "react-router-dom";
 
 export function SubMenu() {
     return (
-        <Div borderBottom="cloud-3" paddingX={8} paddingY={5}>
+        <Nav borderBottom="cloud-3" paddingX={8} paddingY={5}>
             <Div marginRight={7}>
                 <Link to="/">&lt; Back</Link>
             </Div>
@@ -13,6 +13,6 @@ export function SubMenu() {
             <Div>
                 <Link to="/settings">Inactivity</Link>
             </Div>
-        </Div>
+        </Nav>
     );
 }
