@@ -1,10 +1,12 @@
-import { Avatar, Button, Div, Flex, Icon, Text } from "@sharegate/orbit-ui";
+import { Avatar, Button, Div, Flex, Icon, Text, as } from "@sharegate/orbit-ui";
 import { Hamburger, Help, Logo, Notification, Settings } from "./assets";
 import { Link } from "react-router-dom";
 
+const Nav = as(Flex, "nav");
+
 export function Menu() {
     return (
-        <Flex alignItems="center" justifyContent="space-between" as="nav" borderBottom="cloud-2" paddingX={8} paddingY={5}>
+        <Nav alignItems="center" justifyContent="space-between" borderBottom="cloud-2" paddingX={8} paddingY={5}>
             <Link to="/">
                 <Flex alignItems="center" marginRight={7}>
                     <Icon src={Logo} width={5} height={5} />
@@ -19,7 +21,7 @@ export function Menu() {
                 <Div marginRight={3}><Icon src={Help} size="xl" /></Div>
                 <Avatar name="Mars Volta" />
             </Div>
-            <Div display={{ base: "block", md: "none" }}><Icon src={Hamburger} width={4} height={4} /></Div>
-        </Flex>
+            <Div visibility={{ base: "visible", md: "hidden" }}><Icon src={Hamburger} width={4} height={4} /></Div>
+        </Nav>
     );
 }
