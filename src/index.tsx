@@ -1,6 +1,6 @@
-import "@orbit-ui/react-components/index.css";
+import "@sharegate/orbit-ui/index.css";
 
-import { ApricotTheme, ThemeProvider, createThemeVars } from "@orbit-ui/react-components";
+import { ApricotTheme, ThemeProvider, createThemeVars } from "@sharegate/orbit-ui";
 import { render } from "react-dom";
 import App from "./App";
 

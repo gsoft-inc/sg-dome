@@ -1,11 +1,11 @@
 import { Home, Settings, Third } from "./Pages";
 import { Menu } from "./Components";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import { Div } from "@orbit-ui/react-components";
+import { Flex } from "@sharegate/orbit-ui";
 
 function App() {
     return (
-        <Div display="flex" flexDirection="column" minHeight="100vh">
+        <Flex direction="column" minHeight="100vh">
             <Router>
                 <Menu />
                 <Switch>
@@ -20,7 +20,7 @@ function App() {
                     </Route>
                 </Switch>
             </Router>
-        </Div>
+        </Flex>
     );
 }
 

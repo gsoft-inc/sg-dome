@@ -1,12 +1,12 @@
-import { Button, ButtonGroup, Card, Content, Div, Heading, Flex, Illustration, Image, Paragraph, Span } from "@orbit-ui/react-components";
+import { Button, ButtonGroup, Card, Content, Div, Heading, Flex, Illustration, Image, Paragraph, Span } from "@sharegate/orbit-ui";
 import { Sidebar } from "../Components";
 
 export function Home() {
     return (
-        <Flex minWidth="1168px" flexGrow={1}>
+        <Flex minWidth="1168px" grow={1}>
             <Sidebar />
-            <Flex flexGrow={1}>
-                <Flex direction="column" marginTop={7} paddingX={4} flexShrink={1} flexGrow={1} basis="0%" backgroundColor="neutral-1">
+            <Flex grow={1}>
+                <Flex direction="column" marginTop={7} paddingX={4} shrink={1} grow={1} basis="0%" backgroundColor="neutral-1">
                     <Heading>Welcome to ShareGate Alex!</Heading>
                     <Card fluid>
                         <Heading>Try your first migration</Heading>

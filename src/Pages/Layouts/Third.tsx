@@ -1,4 +1,4 @@
-import { Flex, Grid, H1 } from "@orbit-ui/react-components";
+import { Flex, Grid, H1 } from "@sharegate/orbit-ui";
 import { Sidebar } from "../../Components";
 
 export function Third() {

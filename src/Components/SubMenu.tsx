@@ -1,4 +1,4 @@
-import { Div, Flex, as } from "@orbit-ui/react-components";
+import { Div, Flex, as } from "@sharegate/orbit-ui";
 import { Link } from "react-router-dom";
 
 export function SubMenu() {

@@ -5,12 +5,15 @@
   "scripts": {
     "start": "craco start --verbose",
     "build": "craco build --verbose",
-    "lint": "yarn eslint --ext .ts,.tsx src"
+    "lint": "yarn eslint --ext .ts,.tsx src",
+    "reset": "yarn delete-node-modules && yarn delete-yarn-lock",
+    "delete-node-modules": "npx rimraf node_modules",
+    "delete-yarn-lock": "npx rimraf yarn.lock"
   },
   "dependencies": {
     "@babel/eslint-parser": "7.15.8",
     "@craco/craco": "6.3.0",
-    "@orbit-ui/react-components": "19.0.1-alpha.4",
+    "@sharegate/orbit-ui": "0.1.0-alpha.6",
     "@sharegate/eslint-config-react": "2.1.0",
     "@sharegate/eslint-config-recommended": "1.1.1",
     "@sharegate/eslint-config-sort-imports": "1.0.3",
